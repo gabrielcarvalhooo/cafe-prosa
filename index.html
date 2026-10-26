@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café & Prosa</title>
+    <title>Café & Prosa - Cafeteria Artesanal</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Ícones (Boxicons) -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- CSS Externo -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+    <!-- CABEÇALHO / MENU -->
+    <header class="header">
+        <div class="logo">
+            <i class='bx bx-coffee-togo'></i> Café & Prosa
+        </div>
+        <nav class="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#experiencia">Experiência</a>
+        </nav>
+    </header>
     
+    <!-- SEÇÃO 1: INÍCIO (HERO) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>O sabor de uma boa conversa</h1>
+            <p>Cafés especiais moídos na hora e pães artesanais feitos com afeto.</p>
+            <a href="#cardapio" class="btn">Ver Cardápio</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 2: SOBRE NÓS -->
+    <section id="sobre" class="sobre">
+        <div class="sobre-img">
+            <img src="imagens/sobre.jpg" alt="Interior da cafeteria Café & Prosa">
+        </div>
+        <div class="sobre-texto">
+            <h2>Nossa História</h2>
+            <p>O Café & Prosa nasceu do desejo de criar um refúgio acolhedor no meio da rotina agitada. Selecionamos grãos 100% arábica de pequenos produtores locais e preparamos cada receita com técnicas tradicionais de fermentação natural.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 3: CARDÁPIO E ESPECIAIS -->
+    <section id="cardapio" class="cardapio">
+        <h2>Nossos Destaques</h2>
+        <div class="cards-container">
+            <article class="card">
+                <img src="imagens/expresso.jpg" alt="Café Espresso">
+                <h3>Espresso Especial</h3>
+                <p>Notas sensoriais de chocolate amargo e amêndoas.</p>
+                <span class="preco">R$ 9,00</span>
+            </article>
+
+            <article class="card">
+                <img src="imagens/croissant.jpg" alt="Croissant Artesanal">
+                <h3>Croissant Folhado</h3>
+                <p>Massa leve, crocante por fora e macia por dentro com manteiga pura.</p>
+                <span class="preco">R$ 14,00</span>
+            </article>
+
+            <article class="card">
+                <img src="imagens/bolo.jpg" alt="Fatia de Bolo Caseiro">
+                <h3>Bolo de Cenoura com Brigadeiro</h3>
+                <p>Receita caseira tradicional coberta com ganache 50% cacau.</p>
+                <span class="preco">R$ 12,00</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 4: A EXPERIÊNCIA & AVALIAÇÕES -->
+    <section id="experiencia" class="experiencia">
+        <h2>Por que nos visitar?</h2>
+        <div class="diferenciais-container">
+            <div class="diferencial-card">
+                <i class='bx bx-wifi'></i>
+                <h3>Espaço Pet & Wi-Fi</h3>
+                <p>Ambiente pet-friendly equipado para quem precisa trabalhar com tranquilidade.</p>
+            </div>
+            <div class="diferencial-card">
+                <!-- Ícone corrigido para bx-coffee -->
+                <i class='bx bx-coffee'></i>
+                <h3>Grãos Selecionados</h3>
+                <p>Torra semanal garantindo aroma fresco e sabor marcante em cada xícara.</p>
+            </div>
+            <div class="diferencial-card">
+                <i class='bx bx-heart'></i>
+                <h3>Produção Própria</h3>
+                <p>Nossos pães e doces são assados diariamente logo nas primeiras horas da manhã.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ E INFORMAÇÕES DE CONTATO/LOCAL -->
+    <footer class="footer">
+        <div class="footer-info">
+            <p><i class='bx bx-map'></i> Rua das Flores, 123 - Centro</p>
+            <p><i class='bx bx-time'></i> seg a Dom: 05h às 21h</p>
+        </div>
+        <p class="copy">&copy; 2026 Café & Prosa - Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
