@@ -12,13 +12,17 @@
 
     <!-- Ícones (Boxicons) -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
-    <!-- CSS Externo -->
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
-    <!-- CABEÇALHO / MENU -->
+    
     <header class="header">
         <div class="logo">
             <i class='bx bx-coffee-togo'></i> Café & Prosa
@@ -31,7 +35,6 @@
         </nav>
     </header>
     
-    <!-- SEÇÃO 1: INÍCIO (HERO) -->
     <section id="inicio" class="hero">
         <div class="hero-content">
             <h1>O sabor de uma boa conversa</h1>
@@ -39,8 +42,7 @@
             <a href="#cardapio" class="btn">Ver Cardápio</a>
         </div>
     </section>
-
-    <!-- SEÇÃO 2: SOBRE NÓS -->
+    
     <section id="sobre" class="sobre">
         <div class="sobre-img">
             <img src="imagens/sobre.jpg" alt="Interior da cafeteria Café & Prosa">
@@ -51,34 +53,32 @@
         </div>
     </section>
 
-    <!-- SEÇÃO 3: CARDÁPIO E ESPECIAIS -->
     <section id="cardapio" class="cardapio">
         <h2>Nossos Destaques</h2>
         <div class="cards-container">
-            <article class="card">
+            <section class="card">
                 <img src="imagens/expresso.jpg" alt="Café Espresso">
                 <h3>Espresso Especial</h3>
                 <p>Notas sensoriais de chocolate amargo e amêndoas.</p>
                 <span class="preco">R$ 9,00</span>
-            </article>
+            </section>
 
-            <article class="card">
+            <section class="card">
                 <img src="imagens/croissant.jpg" alt="Croissant Artesanal">
                 <h3>Croissant Folhado</h3>
                 <p>Massa leve, crocante por fora e macia por dentro com manteiga pura.</p>
                 <span class="preco">R$ 14,00</span>
-            </article>
+            </section>
 
-            <article class="card">
+            <section class="card">
                 <img src="imagens/bolo.jpg" alt="Fatia de Bolo Caseiro">
                 <h3>Bolo de Cenoura com Brigadeiro</h3>
                 <p>Receita caseira tradicional coberta com ganache 50% cacau.</p>
                 <span class="preco">R$ 12,00</span>
-            </article>
+            </section>
         </div>
     </section>
-
-    <!-- SEÇÃO 4: A EXPERIÊNCIA & AVALIAÇÕES -->
+    
     <section id="experiencia" class="experiencia">
         <h2>Por que nos visitar?</h2>
         <div class="diferenciais-container">
@@ -88,7 +88,6 @@
                 <p>Ambiente pet-friendly equipado para quem precisa trabalhar com tranquilidade.</p>
             </div>
             <div class="diferencial-card">
-                <!-- Ícone corrigido para bx-coffee -->
                 <i class='bx bx-coffee'></i>
                 <h3>Grãos Selecionados</h3>
                 <p>Torra semanal garantindo aroma fresco e sabor marcante em cada xícara.</p>
@@ -100,8 +99,7 @@
             </div>
         </div>
     </section>
-
-    <!-- RODAPÉ E INFORMAÇÕES DE CONTATO/LOCAL -->
+    
     <footer class="footer">
         <div class="footer-info">
             <p><i class='bx bx-map'></i> Rua das Flores, 123 - Centro</p>
